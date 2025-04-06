@@ -40,4 +40,10 @@ function editbook(index) {
     books.splice(index, 1); // Remove old entry
     showbooks(); // Refresh list
   }
-  
+
+   function clearInputs() {
+            document.getElementById('bookName').value = '';
+            document.getElementById('authorName').value = '';
+            document.getElementById('bookDescription').value = '';
+            document.getElementById('pagesNumber').value = '';
+ }
